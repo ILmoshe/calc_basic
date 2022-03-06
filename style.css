@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+}
+
+#history{
+  align-items: center;
+  margin-top: 15px;
+  /* width: 25%;
+  height: 25px; */
+  background-color: white;
+  border-radius: 15px;
+  border: 3px solid rgb(204, 202, 202);
+  color: black;
+  display: flex;
+  /* outline: none; */
+}
+
+#history:hover {
+  border-color: red;
+  
+}
+
+.containerChild {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.display {
+  margin-top: 15px;
+  width: 25%;
+  height: 25px;
+  background-color: white;
+  border-radius: 15px;
+  border: 3px solid rgb(204, 202, 202);
+  color: black;
+  display: flex;
+  outline: none;
+}
+#result {
+  width: 70%;
+}
+#dis-op {
+  border-left: 3px solid rgb(204, 202, 202);
+  width: 30%;
+}
+#dis-op:hover {
+  border-left: 3px solid red;
+}
+.display:hover {
+  border: 3px solid red;
+}
+
+.number {
+  background-color: #ededed;
+  border-radius: 50%;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  user-select: none;
+}
+
+.number:hover {
+  background-color: red;
+  color: white;
+}
+
+.number:active {
+  position: relative;
+  top: 1px;
+}
+
+.operator {
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  user-select: none;
+}
+
+.operator:hover {
+  background-color: #ededed;
+  color: black;
+}
+
+.operator:active {
+  position: relative;
+  top: 1px;
+}
